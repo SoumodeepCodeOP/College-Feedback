@@ -1,0 +1,46 @@
+
+   h3{
+    
+    margin-left: 550px;
+    margin-top: 10px;
+    color: red;
+   }
+   h2{
+    margin-left: 550px;
+    color: red;
+   }
+   p{
+    margin-left: 550px;
+   }
+   h1{
+    margin-top: 50px;
+    margin-left: 500px;
+    color:white;
+   }
+   
+   input{
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+   }
+   input[type]{
+    margin-left:25px;
+   }
+   p{
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+   }
+   .button{
+    height: 40px;
+    width:150px;
+    border-radius: 6px;
+    background-color: red;
+    cursor: pointer;
+    margin-left: 1000px;
+    margin-bottom: 60px;
+   }
+   .button:hover{
+    background-color:green;
+    color: white;
+   }

@@ -1,0 +1,105 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: blueviolet;
+}
+
+.container
+{
+   position: relative;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   padding: 30px; 
+   border-radius: 10px;
+   box-shadow: -1px -1px 2px rgba(255,255,255,0.25), inset 2px 2px 5px rgba(0,0,0,0.4), inset -2px -2px 5px rgba(0,0,0,0.3);
+
+}
+
+.container h1
+{
+    margin-bottom: 10px;
+    font-weight: bold;
+    color:chartreuse;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container .callrating
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    padding-right: 10px;
+    box-shadow: -1px -1px 2px rgba(255,255,255,0.25), inset 2px 2px 5px rgba(255,255,255,0.25), 8px 30px 30px rgba(0,0,0,0.4), inset -2px -2px 5px rgba(0,0,0,0.3);
+}
+
+.container .callrating h3
+{
+    min-width: 180px;
+    text-align: right;
+    padding-right: 40px;
+    font-weight: 400;
+    font-size: 20px;
+    color: aliceblue; 
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container .callrating .rating
+{
+    position: relative;
+    display: flex;
+    margin: 10px 0;
+    flex-direction: row-reverse;
+}
+
+.container .callrating .rating input
+{
+    position: relative;
+    width: 20px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    -webkit-appearance: none;
+    appearance: none;
+
+}
+
+
+.container .callrating .rating input::before
+{
+    content: '\f005';
+    position: absolute;
+    font-family: fontAwesome;
+    font-size: 30px;
+    position: absolute;
+    color: #030b0f;
+    transition: 0.5s;
+
+}
+
+
+
+.container .callrating .rating input:hover ~ input::before,
+.container .callrating .rating input:hover::before,
+.container .callrating .rating input:checked ~ input::before,
+.container .callrating .rating input:checked::before
+{
+   color: orange;
+}
+.button{
+   height:40px;
+   width: 600px;
+   color: blueviolet;
+   justify-content: center;
+   font-weight: bold;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   margin-left: 180px;
+   font-size: 20px;
+}
