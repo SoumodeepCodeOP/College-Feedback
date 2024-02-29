@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Register</title>
-        <link rel="stylesheet" href="css/f.css">
+        <link rel="stylesheet" href="css/register.css">
         <link rel="icon" href="ece logo.png" type="image/x-icon">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -27,29 +27,29 @@
                 <div class="error-text">Error</div>
                 <div class="grid-details">
                     <div class="input">
-                        <p>First Name</p>
+                        <label>First Name</label>
                         <input type="text" name="fname" placeholder="First Name" required pattern="[a-zA-Z'-'\s]*">
                     </div>
                     <div class="input">
-                        <p>Last Name</p>
+                        <label>Last Name</label>
                         <input type="text" name="lname" placeholder="Last Name" required pattern="[a-zA-Z'-'\s]*">
                     </div>
                 </div>
                 <div class="input">
-                    <p>Email</p>
+                    <label>Email</label>
                     <input type="email" name="email" placeholder="abcd@gmail.com" required>
                 </div>
                 <div class="input">
-                    <p>Phone</p>
+                    <label>Phone</label>
                     <input type="phone" name="phone" placeholder="0123456789"required pattern="[0-9]{10}" oninvalid="this.setCustomValidity('Enter 10 Digits Number')" oninput="this.setCustomValidity('')">
                 </div>
                 <div class="grid-details">
                     <div class="input">
-                        <p>Password</p><span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+                    <label>Password</label><span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
                         <input type="password" id="password-field" name="pass" placeholder="ABcd1234" required>
                     </div>
                     <div class="input">
-                        <p>Confirm Password</p><span toggle="#cpassword-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+                    <label>Confirm Password</label>
                         <input type="password" id="cpassword-field" name="cpass" placeholder="ABcd1234" required>
                     </div>
                 </div>
@@ -61,7 +61,7 @@
                     </div>
                 </div>
                 <div class="submit">
-                <p>ROLE:</p>
+                <label>ROLE:</label>
                     <select name = "ROLE" id="ROLE" title="Select it carefully can't be changed later">
                         <option value="Student">Student</option>
                         <option value="Alumni">Alumni</option>
@@ -72,7 +72,7 @@
             </form>
             <div class="link">Already signed up?<a href="login.php">Login Now</a></div>
         </div>
-        <script src="js/regis.js"></script></b>
+        <script src="js/logi.js"></script></b>
     </b>
     </body>
 </html>
