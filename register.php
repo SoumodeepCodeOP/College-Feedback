@@ -72,7 +72,7 @@
             </form>
             <div class="link">Already signed up?<a href="login.php">Login Now</a></div>
         </div>
-        <script src="js/logi.js"></script></b>
+        <script src="js/register.js"></script></b>
     </b>
     </body>
 </html>
