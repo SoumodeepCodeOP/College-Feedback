@@ -28,7 +28,7 @@ if(mysqli_num_rows($qry)>0){
 <head>
   <meta charset="UTF-8" />
   <title>Dashboard</title>
-  <link rel="stylesheet" href="css/style1.css" />
+  <link rel="stylesheet" href="css/style2.css" />
   <link rel="icon" href="ece logo.png" type="image/x-icon">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
   
