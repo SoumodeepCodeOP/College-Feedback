@@ -32,13 +32,11 @@
                     <label>University Roll-Number:</label>
                     <input type="number" name="University_Roll_No" id="University_Roll_No" placeholder="University Roll Number"required></p>
                 </div>
-                <div class="grid-details">
-                    <div class="input">
-                        <label>Password</label><span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
-                        <input type="password" name="pass" id="password-field" placeholder="Password" required>
-                        
-                    </div>
-                </div>                
+                <div class="input">
+                    <label>Password</label><span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+                    <input type="password" name="pass" id="password-field" placeholder="Password" required>        
+                </div>
+                              
                 <div class="submit">
                     <input type="submit" value="Login" class="button">
                 </div>
