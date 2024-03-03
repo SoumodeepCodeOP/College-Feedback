@@ -1,6 +1,6 @@
 /*  import google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
-*{
+* {
   margin: 0;
   padding: 0;
   border: none;
@@ -9,157 +9,182 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-body{
+body {
   background: rgb(219, 219, 219);
 }
-.header{
+.body {
+  display: flex;
+}
+.left-part {
+  height: 100%;
+}
+.right-part {
+  width: 100%;
+  padding: 20px;
+}
+.header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 60px;
+  background: #ffffff;
+  width: 100%;
+  border-radius: 20px;
   padding: 20px;
-  background: #fff;
 }
-.logo{
+.logo {
   display: flex;
   align-items: center;
+  gap: 20px;
 }
-.logo a{
+.logo a {
   color: #000;
   font-size: 18px;
   font-weight: 600;
-  margin: 2rem 8rem 2rem 2rem;
 }
-.header-icons{
+.header-icons {
   display: flex;
   align-items: center;
 }
-.header-icons i{
+.header-icons i {
   margin-right: 2rem;
   cursor: pointer;
 }
-.header-icons .account{
+.header-icons .account {
   width: 130px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.header-icons .account img{
+.header-icons .account img {
   width: 35px;
   height: 35px;
   cursor: pointer;
   border-radius: 50%;
 }
-.container{
+.container {
   margin-top: 10px;
   display: flex;
   justify-content: space-between;
+  gap: 20px;
 }
 
 /* Side menubar section */
-nav{
-  background: #fff;
+nav {
+  background: #303030;
+  height: 100vh;
 }
-.side_navbar{
+.side_navbar {
   padding: 1px;
   display: flex;
   flex-direction: column;
 }
-.side_navbar span{
+.side_navbar span {
   color: gray;
-  margin: 1rem 3rem;
+  margin: rgb(185, 185, 185) m 3rem;
   font-size: 12px;
 }
-.side_navbar a{
+.side_navbar a {
   width: 100%;
   padding: 0.8rem 3rem;
   font-weight: 500;
   font-size: 15px;
-  color: rgb(100, 100, 100);
+  color: rgb(209, 209, 209);
 }
-.links{
+.links {
   margin-top: 5rem;
   display: flex;
   flex-direction: column;
 }
-.links a{
+.links a {
   font-size: 13px;
 }
-.side_navbar a:hover{
+.side_navbar a:hover {
   background: rgb(235, 235, 235);
+  color: #616161;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
 }
-.side_navbar .active{
-  border-left: 2px solid rgb(100, 100, 100);
+.side_navbar .active {
+  border-left: 2px solid rgb(209, 209, 209);
+  background-color: #474747;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
 }
 
 /* Main Body Section */
-.main-body{
-  width: 70%;
-  padding: 1rem;
-}
-.promo_card{
+
+.promo_card {
   width: 100%;
   color: #fff;
-  margin-top: 10px;
-  border-radius: 8px;
-  padding: 0.5rem 1rem 1rem 3rem;
+  border-radius: 10px;
   background: rgb(37, 37, 37);
+  padding: 15px;
 }
 
-.promo_card h1, .promo_card span, button{
+.promo_card h1,
+.promo_card span,
+button {
   margin: 10px;
 }
-.promo_card button{
+.promo_card button {
   display: block;
   padding: 6px 12px;
   border-radius: 5px;
   cursor: pointer;
 }
-.history_lists{
+.history_lists {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  gap: 20px;
 }
-.row{
+
+.list1,
+.list2 {
+  background-color: #e7e7e7;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.row {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 1rem 0;
 }
-table{
+table {
   background: #fff;
   padding: 1rem;
   text-align: left;
   border-radius: 10px;
 }
-table td, th{
+table td,
+th {
   padding: 0.2rem 0.8rem;
 }
-table th{
+table th {
   font-size: 15px;
 }
-table td{
+table td {
   font-size: 13px;
   color: rgb(100, 100, 100);
 }
 
-
-
 /* Sidebar Section */
-.sidebar{
-  width: 15%;
-  padding: 2rem 1rem;
+.sidebar {
   background: #fff;
-}
-.sidebar h4{
-  margin-bottom: 1.5rem;
-}
-.sidebar .balance{
+  border-radius: 20px;
   display: flex;
-  align-items: center;
+  gap: 20px;
+  padding: 1.5rem;
+}
+.sidebar h4 {
   margin-bottom: 1rem;
 }
-.balance .icon{
+.sidebar .balance {
+  background-color: #e7e7e7;
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+.balance .icon {
   color: #fff;
   font-size: 20px;
   border-radius: 6px;
@@ -167,24 +192,29 @@ table td{
   padding: 1rem;
   background: rgb(37, 37, 37);
 }
-.balance .info h5{
+.balance .info h5 {
   font-size: 16px;
 }
-.balance .info span{
+.balance .info span {
   font-size: 14px;
   color: rgb(100, 100, 100);
 }
-.balance .info i{
+.balance .info i {
   margin-right: 2px;
 }
-.img{
-    max-height:55px;
-    max-width:100%;
-    margin-bottom: 0.2px;
-    display:block;
-    margin: auto;
-    margin-block-start: 20px;
+.img {
+  max-height: 55px;
+  max-width: 100%;
 }
-.main-body p{
+.main-body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.main-body p {
   background: yellow;
 }
+
+/* @media (max-width: 1150px) {
+} */
